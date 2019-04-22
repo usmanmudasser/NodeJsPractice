@@ -1,0 +1,19 @@
+{
+  "name": "nodejspractice-1",
+  "version": "1.0.0",
+  "description": "nodejs practice with C#",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmanmudasser/NodeJsPractice.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usmanmudasser/NodeJsPractice/issues"
+  },
+  "homepage": "https://github.com/usmanmudasser/NodeJsPractice#readme"
+}
