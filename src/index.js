@@ -1,5 +1,11 @@
-import {HelloWorld} from './helloworld';
+"use strict"
+import {ApiClient} from './apiClient';
 
-//const HelloWorld = require('./HelloWorld');
-
-new HelloWorld().sayHello();
+var apiClient = new ApiClient();
+apiClient.getTasks()
+.then(data=>{
+    console.log(`I got back ${data.length} rows`)
+} )
+.catch(err=>{
+    console.log(`Something went wrong ${err}`)
+});
